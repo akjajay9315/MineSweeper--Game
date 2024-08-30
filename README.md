@@ -24,6 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 This game features a grid-based puzzle where bombs are hidden at various locations. The goal is to reveal all non-bomb tiles without triggering a bomb.
 
 How to Play:
+
 Bombs and Numbers: Each tile will either be blank or display a number.
 The number represents the count of bombs present in the surrounding 8 tiles.
 
