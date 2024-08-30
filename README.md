@@ -26,7 +26,9 @@ This game features a grid-based puzzle where bombs are hidden at various locatio
 How to Play:
 Bombs and Numbers: Each tile will either be blank or display a number.
 The number represents the count of bombs present in the surrounding 8 tiles.
+
 Example: If a tile shows the number 3, it indicates that there are 3 bombs in the neighboring tiles.
+
 Objective: Deduce where the bombs are located and reveal all tiles that do not contain bombs.
 Losing Condition: Clicking on a bomb will result in losing the game.
 
