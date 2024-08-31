@@ -11,7 +11,7 @@ export default function GameWon({time}) {
                 <p className="text-xl text-center mb-6 text-black">You&apos;ve successfully navigated the minefield in just {time} seconds!</p>
                 <div className="flex justify-evenly w-full">
                     <button onClick={()=>window.location.reload()} className='text-xl px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-green-700 cursor-pointer'>Play Again</button>
-                    <Link href="/" className='text-xl px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-blue-700'>Go Home</Link>
+                    {/* <Link href="/" className='text-xl px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-blue-700'>Go Home</Link> */}
                 </div>
             </div>
         </div>

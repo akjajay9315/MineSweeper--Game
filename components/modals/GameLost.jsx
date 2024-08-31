@@ -12,7 +12,7 @@ export default function GameLost() {
                 <p className="text-xl text-center mb-6">You&apos;ve stumbled into a deadly trap!</p>
                 <div className="flex justify-evenly w-full">
                     <button onClick={()=>window.location.reload()} className='text-xl px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-blue-700 cursor-pointer'>Try Again</button>
-                    <Link href="/" className='text-xl px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-red-700'>Go Home</Link>
+                    {/* <Link href="/" className='text-xl px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-red-700'>Go Home</Link> */}
                 </div>
             </div>
         </div>
