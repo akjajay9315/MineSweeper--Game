@@ -5,8 +5,8 @@ import Navbar from "@/components/navbar/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Minesweeper",
-  description: "Minesweeper game made my Paras Roy",
+  title: "MineSweeper",
+  description: "Minesweeper game made my Ajay Kumar",
 };
 
 export default function RootLayout({ children }) {
