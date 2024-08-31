@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "MineSweeper",
-  description: "Minesweeper game made my Ajay Kumar",
+  description: "Minesweeper game made by Ajay Kumar",
 };
 
 export default function RootLayout({ children }) {
