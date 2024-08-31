@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Game Rules
+This game features a grid-based puzzle where bombs are hidden at various locations. The goal is to reveal all non-bomb tiles without triggering a bomb.
+
+How to Play:
+
+Bombs and Numbers: Each tile will either be blank or display a number.
+The number represents the count of bombs present in the surrounding 8 tiles.
+
+Example: If a tile shows the number 3, it indicates that there are 3 bombs in the neighboring tiles.
+
+Objective: Deduce where the bombs are located and reveal all tiles that do not contain bombs.
+
+Losing Condition: Clicking on a bomb will result in losing the game.
 ## Getting Started
 
 First, run the development server:
